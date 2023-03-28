@@ -1,0 +1,290 @@
+
+/*general*/
+* {
+    font-family: 'roboto';
+}
+
+body{
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+
+}
+
+header{
+    background-color: #fff;
+    border-bottom:1px solid #ccc;
+}
+
+.row{
+    margin: 0;
+}
+
+.container-fluid{
+padding: 0;
+}
+
+/*botão*/
+.btn-primary{
+    background-color: #40a2f2;
+    border: 2px solid #327fbe;
+}
+
+.btn-primary:hover{
+    background-color: #327fbe;
+    border: 2px solid #327fbe;
+
+}
+
+#info-container .already-joined-msg{
+    margin: 15px;
+    color: #004085;
+    background-color: #cce5ff;
+    border: 1px solid  #b8daff;
+    padding: 10px;
+    width: 280px;
+}
+
+
+
+.msg{
+    background-color: #d4edda;
+    color: #155724;
+    border: solid 1px #c3e6cb;
+    width: 100%;
+    margin-bottom: 0px;
+    text-align: center;
+    padding: 10px;
+}
+
+/*navbar*/
+#navbar img{
+    width: 40px;
+}
+
+#navbar{
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 5px 0;
+}
+
+#navbar a{
+    font-size: 25px;
+    color: #757575;
+}
+
+#navbar a:hover{
+    color: #327fbe;
+}
+
+/*search container*/
+#search-container{
+
+    background-image:url(../img/search-container2.jpg);
+    background-size:cover;
+    background-position: center;
+    height: 400px;
+    padding: 50px;
+    text-align:center;
+
+}
+
+#search-container h1{
+    color: #fff; /*f2a340;*/
+    margin-bottom: 30px;
+    font-weight: 900;
+
+}
+
+#search-container form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+/*events list*/
+#events-container{
+   padding: 50px;
+}
+
+#events-container h2{
+    margin-bottom: 10px;
+
+}
+
+#events-container .subtitle{
+    margin-bottom: 30px;
+    color: #757575;
+}
+
+#cards-container{
+    display: flex;
+
+}
+
+#events-container .card{
+    flex: 1 1 20%;
+    max-width: 25%;
+    margin-right: 300px;
+    border-radius: 10px;
+    padding: 0;
+    margin: 0.5px;
+}
+
+#events-container img{
+    max-height: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.card .card-date{
+    font-size: 12px;
+    color: #383737;
+}
+
+.card .card-title{
+    color: #212121;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.card-participantes{
+    font-size: 14px;
+}
+
+
+/*event create page*/
+
+#event-create-container{
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px #0a6ad8;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#event-create-container label{
+    font-weight: bold;
+    margin-bottom: 8px;
+
+}
+
+#event-create-container input,
+#event-create-container select,
+#event-create-container textarea{
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+/*event page*/
+
+#image-container,
+#info-container{
+    margin-top: 30px;
+}
+
+#image-container img{
+    border-radius: 10px;
+    max-width: 100%;
+
+}
+
+#info-container{
+    font-size: 36px;
+    font-weight: 900;
+}
+#info-container h1{
+   margin-bottom: 20px;
+}
+
+#info-container p{
+    margin: 0;
+    font-size: 20px;
+    display: flex;
+
+}
+
+#info-container h3,
+#description-container h3{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+#description-container{
+    margin-top: 30px;
+}
+
+#info-container ion-icon{
+    font-size: 30px;
+    color: #0a6ad8;
+    margin-right: 5px;
+
+}
+
+#info-container #event-submit{
+    margin: 30px 0px;;
+}
+
+#items-list{
+    list-style: none;
+    padding-left: 0;
+
+}
+
+#items-list li{
+    display: flex;
+    align-items: center;
+
+}
+
+#items-list span{
+
+
+    align-items: center;
+    justify-content:center ;
+
+}
+
+/*dashboard*/
+
+.dashboard-title-container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.dashboard-events-container th {
+    width: 25%;
+
+}
+/*edit page*/
+
+.img-preview{
+    width: 100px;
+    margin-top: 20px;
+}
+
+
+
+/*footer*/
+footer{
+    text-align: center;
+    background-color: #353e48;
+    color: #fff;
+    padding: 30px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+
+}
+
+footer p{
+    margin-bottom: 0;
+}
+
+
+
+
